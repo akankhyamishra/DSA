@@ -1,14 +1,15 @@
 #include<iostream>
 #include<vector>
 #include<bits/stdc++.h>
+
  
 using namespace std;
 
 class solution{
     public:
 
-    bool compare(pair<int, int>a, pair<int, int>b){
-        (a.first>b.first)? true:false;
+    bool compare(pair<int, int>p, pair<int, int>q){
+        (p.first>q.first)? true:false;
     }
 
    int maxMeeting(int start[], int end[], int n){

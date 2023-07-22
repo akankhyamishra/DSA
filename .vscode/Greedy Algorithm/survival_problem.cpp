@@ -32,8 +32,3 @@ int minimumDay(int n, int s, int m){
     
 }
  
-int main(){
-
- 
- return 0;
-}

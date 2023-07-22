@@ -36,8 +36,3 @@ vector<int> candyStore(int candies[], int n, int k){
     
 }
  
-int main(){
-
- 
- return 0;
-}

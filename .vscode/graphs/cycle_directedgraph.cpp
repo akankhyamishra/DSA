@@ -54,8 +54,3 @@ int detectCycle(int n, vector<pair<int, int>>edges ){
     
 }
  
-int main(){
-
- 
- return 0;
-}
