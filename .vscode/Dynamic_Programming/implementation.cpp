@@ -3,6 +3,7 @@
  
 using namespace std;
  
+ //rec + mem
  int fib(int n, vector<int> &dp){
 if(n==0 || n==1) {
     return n;
@@ -28,6 +29,7 @@ cout<< fib(n, dp)<<endl;
  return 0;
 }
 
+//tabulation
 /* vector<int> dp[n+10];
    dp[0]=0
    dp[1]=1
