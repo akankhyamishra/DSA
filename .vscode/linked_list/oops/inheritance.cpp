@@ -9,7 +9,7 @@ class employee
 
     void func(){
         cout<<id<<endl;
-    }
+    }  
 };
 class B: public employee{
     public:
@@ -17,7 +17,7 @@ class B: public employee{
     cout<<"function"<<endl;
    }
 };
-class C: public B{
+class C: public B {
 
 };
 

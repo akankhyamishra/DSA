@@ -51,8 +51,14 @@ using namespace std;
     }
  };
 int main(){
-    // student a;
     string s;
+    // student a;
+    
+    //copy constructor
+    student n("nitin", 21 ,50);
+    student shashank(n);
+    shashank.age=n.age;
+    shashank.marks=n.marks; 
     student a("akankhya", 20, 50);
     a.print();
     student c=a;
