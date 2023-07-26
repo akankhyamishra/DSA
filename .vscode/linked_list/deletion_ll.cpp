@@ -23,7 +23,7 @@ class node{
     }
 };
 
-void deleteAtHead(int position, node*head){
+void deletenode(int position, node*head){
 if (position==1)
 {
    node*temp=head;
