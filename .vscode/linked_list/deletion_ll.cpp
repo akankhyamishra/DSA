@@ -21,7 +21,7 @@ void print(node*head, int key){
         temp=temp->next;
     }
 }  
-    
+     
 
 
 int main(){

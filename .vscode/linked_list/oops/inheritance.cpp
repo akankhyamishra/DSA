@@ -11,6 +11,7 @@ class employee
         cout<<id<<endl;
     }  
 };
+//multilevel inheritance
 class B: public employee{
     public:
    void print(){

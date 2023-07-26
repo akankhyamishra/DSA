@@ -43,6 +43,8 @@ void append(node **head, int new_val)
     {
         *head = new_node;
     }
+
+      
     //traverse
     while (last->next != NULL)
     {
