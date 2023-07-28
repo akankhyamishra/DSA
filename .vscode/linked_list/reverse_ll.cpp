@@ -15,6 +15,36 @@ void insert(node**head, int key){
     *head=new_node;
 }
 
+//recusion
+
+node*reverse2(node*head){
+    if (head==NULL || head->next==NULL)
+    {
+        /* code */
+        return head;
+    }
+    node*small=reverse2(head->next);
+    head->next->next=head;
+    head->next=NULL;
+    return small;
+}
+
+void reverse1(node*head){
+    node*curr;
+    node*prev=NULL;
+    if (curr==NULL)
+    {
+         head=prev;
+        return ;
+    }
+    node*temp=curr->next;
+    reverse2(head);
+    curr->next=prev;
+    
+}
+
+//iterrative
+
 node*reverse(node*head){
     node*prev=NULL;
     node*curr=head;
